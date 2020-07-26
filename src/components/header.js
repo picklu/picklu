@@ -1,9 +1,9 @@
 import React from "react"
 
-const Footer = () => (
+const Header = ({ siteTitle }) => (
     <header className="header">
-        <span>Picklu</span>
+        <span>{siteTitle}</span>
     </header>
 )
 
-export default Footer
+export default Header
