@@ -5,6 +5,14 @@ module.exports = {
         author: `picklu`
     },
     plugins: [
+        {
+            resolve: 'gatsby-plugin-web-font-loader',
+            options: {
+                google: {
+                    families: ['Droid Sans', 'Droid Serif']
+                }
+            }
+        },
         `gatsby-plugin-sass`
     ]
 }
