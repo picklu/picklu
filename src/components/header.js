@@ -1,7 +1,7 @@
 import React from "react"
 
 const Footer = () => (
-    <header>
+    <header className="header">
         <span>Picklu</span>
     </header>
 )
